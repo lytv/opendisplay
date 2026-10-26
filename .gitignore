@@ -38,3 +38,8 @@ fastlane/test_output/
 node_modules/
 dist-ssr/
 /docs/
+
+# Legacy iPad 2 receiver: local build outputs, install artifacts and the
+# private patched-SDK marker state stay out of the repo.
+iOSLegacy9/build/
+iOSLegacy9/dist/
